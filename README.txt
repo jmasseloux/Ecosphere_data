@@ -1,5 +1,5 @@
 Data can be loaded into R using 
-> load(comm.data.mamm)
+> load(mamm.comm.data)
 
 > y = comm.data$det.data.mamm # detection data (18 dataframes with 120 rows (sites) and 18 columns (surveys)
 > n.species = dim(y)[1] # number of species
